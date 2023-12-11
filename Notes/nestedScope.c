@@ -8,7 +8,8 @@ void main()
         int b = 4; float c = 5.0 ; 
         printf("%d %d %f\n", a, b, c);
         a = b;
-        {
+
+ {
             int c;
             c = b;
             printf("%d %d %d\n", a, b, c);
