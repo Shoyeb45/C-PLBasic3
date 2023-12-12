@@ -41,5 +41,4 @@ int at=0;
    printf("Valid email");
    else
    printf("Invalid email");
-
 }
