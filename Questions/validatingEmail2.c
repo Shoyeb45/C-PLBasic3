@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include<string.h>
 
+
 int gmail(char a[] ){
-if(strcmp(a, "@gmail.com"))
-return 0;
-else
+    
+if(strcmp(a, "@gmail.com") == 0)
 return 1;
+else
+return 0;
 }
 
 int username(char b[]){
