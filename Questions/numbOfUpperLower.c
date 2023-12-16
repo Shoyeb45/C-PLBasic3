@@ -20,6 +20,8 @@ int LowerCase=0 , UpperCase=0;
     }
  }
 
+ 
+
  printf("Number of uppercase character %d\nNumber of lowercase character %d", UpperCase ,LowerCase);
 
 }
