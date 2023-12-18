@@ -1,1 +1,1 @@
-nLen
+c[2*strlen(c)] = '\0';

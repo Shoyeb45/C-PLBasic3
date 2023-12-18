@@ -6,11 +6,19 @@ int main()
     printf("Enter text:");
     gets(c);
 
-    for(int i=0; i<strlen(c) ; i++){
-        printf("%c",c[i]);
+    // for(int i=0; i<strlen(c) ; i++){
+    //     printf("%c",c[i]);
+    // }
+
+    // for(int i=0; i<strlen(c) ; i++){
+    //     printf("%c",c[i]);
+    // }
+
+    for(int i=strlen(c), j=0 ; j<strlen(c)&&i< 2*strlen(c) ; i++, j++){
+        c[i] = c[j];
     }
 
-    for(int i=0; i<strlen(c) ; i++){
-        printf("%c",c[i]);
-    }
+    // c[2*strlen(c)] = '\0';
+
+    puts(c);
 }
