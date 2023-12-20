@@ -18,13 +18,14 @@ struct info t1, t2, t3;
 
 printf("Enter the id:");
 scanf("%d", &t1.id);
-printf("Enter the name:");
-gets(t2.name);
+t2.name[20] = "Shoyeb";
+// printf("Enter the name:");
+// scanf("%s",t2.name);
 printf("Enter the number:");
 scanf("%d", & t3.number);
 
 printf("%d\n",t1.id);
-puts(t2.name);
+printf("%s",t2.name);
 printf("\n%d",t3.number);
 
 }
