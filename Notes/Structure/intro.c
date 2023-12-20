@@ -18,9 +18,9 @@ struct info t1, t2, t3;
 
 printf("Enter the id:");
 scanf("%d", &t1.id);
-t2.name[20] = "Shoyeb";
-// printf("Enter the name:");
-// scanf("%s",t2.name);
+
+printf("Enter the name:");
+scanf("%s",t2.name);
 printf("Enter the number:");
 scanf("%d", & t3.number);
 
