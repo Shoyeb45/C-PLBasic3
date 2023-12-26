@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 void main()
 {
@@ -11,13 +12,14 @@ void main()
 int i, j, k;
 
 for(i=0 ; str1[i] != '\0' ; i++){
-    if(str1[i] = '\0'){
+    if(str1[i] == '\0'){
         for(j=i,k=0 ; str2[k] != '\0' ; k++,j++ ){
             str1[j] = str2[k];
         }
     }
 }
 
-printf("%s" , str1);
+gets(str1);
+// printf("%s" , str1);
     
 }

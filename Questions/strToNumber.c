@@ -13,7 +13,7 @@ int sum=0;
 
  for(int i=0; i<len ; i++){
      if(a[i]>=48 && a[i]<=57){
-        sum=sum*10+(a[i]-48);
+        sum = sum*10 + (a[i]-48);
         
      }
  }
