@@ -6,8 +6,8 @@ void main()
     char b[]={'q','u', 'i', 'z'};
     int *p;
     char *q;
-    p = &a[2];
-    q = b;
+    p = a;
+    q = &b;
 
 
     printf("%d\n",*(p+1));
