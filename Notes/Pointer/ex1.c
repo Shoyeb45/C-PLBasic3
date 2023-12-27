@@ -10,4 +10,5 @@ void main()
     res = *p + *q;
 
     printf("%d",res);
+    printf("\n%d", &res);
 }
