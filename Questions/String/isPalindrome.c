@@ -12,11 +12,13 @@ int flag=0;
 int len = strlen(word);
 printf("\nLen:%d\n", len);
 char reverse[len];
-
-for(int i=len-1,j=0 ; i>=0 ; i--,j++ ){
+int i, j;
+for(i=len-1,j=0 ; i>=0 ; i--,j++ ){
     printf("%d %d\n",i, j);
     reverse[j]=word[i];
 }
+
+reverse[j] = '\0';
 
 printf("\nReverse word is:");
 puts(reverse);
