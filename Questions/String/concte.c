@@ -1,3 +1,4 @@
+//concating two string
 #include<stdio.h>
 #include<string.h>
 
@@ -10,16 +11,15 @@ void main()
     gets(str2);
 
 int i, j, k;
-
-for(i=0 ; str1[i] != '\0' ; i++){
-    if(str1[i] == '\0'){
-        for(j=i,k=0 ; str2[k] != '\0' ; k++,j++ ){
-            str1[j] = str2[k];
-        }
-    }
+i = strlen(str1);
+while( str2[j] != '\0'){
+    str1[i] = str2[j];
+    i++;
+    j++;
 }
 
-gets(str1);
-// printf("%s" , str1);
+str1[i] = '\0';
+
+puts(str1);
     
 }
