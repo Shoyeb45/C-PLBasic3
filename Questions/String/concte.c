@@ -10,7 +10,7 @@ void main()
     printf("Enter the str1:");
     gets(str2);
 
-int i, j, k;
+int i, j;
 i = strlen(str1);
 while( str2[j] != '\0'){
     str1[i] = str2[j];
