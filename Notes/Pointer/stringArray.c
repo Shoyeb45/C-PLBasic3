@@ -4,5 +4,8 @@ int main()
 {
     char *a[] = {"Shoyeb", "Aryan", "Vivaan"};
 
-    printf("%s", a);
+    printf("%s", *(a+1)+2);
+
+    
+
 }

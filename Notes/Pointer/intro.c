@@ -9,5 +9,6 @@ int *p = &a;
 char *q = &c;
 
 printf("%d %c", *p, *q);
+printf("\n %p %p", p, q);
 
 }

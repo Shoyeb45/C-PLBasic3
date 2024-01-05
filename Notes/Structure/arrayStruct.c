@@ -5,7 +5,7 @@
 struct info
 {
     int id;
-    char name[4];
+    char name[10];
     int number;
 }s[2];
 

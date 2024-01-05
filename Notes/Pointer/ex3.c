@@ -7,7 +7,7 @@ void main()
     int *p;
     char *q;
     p = a;
-    q = &b;
+    q = b;
 
 
     printf("%d\n",*(p+1));
