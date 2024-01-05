@@ -11,5 +11,6 @@ void main()
 
 
     printf("%d\n",*(p+1));
-     printf("%c\n",*(q+3));
+    printf("%c\n",*(q+3));
+    printf("%c", *p);
 }
