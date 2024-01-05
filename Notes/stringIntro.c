@@ -4,10 +4,13 @@
 int main()
 {
     //Array syntax to declare string.
-    char a[5]={'P','W','I','O','I'};
+    char *a="PWIOI";
+
 
  	puts(a);
 
-char b[5]="PWIOI";
+char b[6]="PWIOI";
+char c[5] = {'I', 'I', 'I', 'G', '\0'};
 printf("%s ",b);
+printf("\n%s",b);
 }
